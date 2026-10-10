@@ -1,0 +1,25 @@
+{
+	"note": "",
+	"people": [
+		{
+			"name": "Darren Beaty",
+			"value": "Electro Sound",
+			"contact": "+27 83 659 1732"
+		},
+		{
+			"name": "Mike Wheeler",
+			"value": "CarMike Plumbers",
+			"contact": "+27 82 572 8729"
+		},
+		{
+			"name": "Mathew Laing",
+			"value": "Rand Sandblasting",
+			"contact": "+27 11 955 3505"
+		},
+		{
+			"name": "Kriban Thambiren",
+			"value": "International Paints",
+			"contact": "+27 83 637 7910"
+		}
+	]
+}
