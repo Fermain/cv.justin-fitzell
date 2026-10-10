@@ -1,0 +1,34 @@
+{
+	"groups": [
+		{
+			"name": "Hard Skills",
+			"items": [
+				"Plumbing",
+				"Electrical",
+				"Carpentry",
+				"Painting",
+				"Varnishing",
+				"Sandblasting",
+				"Corrosion Protection",
+				"Rigging and Staging",
+				"Maritime Safety",
+				"Navigation",
+				"Personal Watercraft",
+				"Powerboats"
+			]
+		},
+		{
+			"name": "Soft Skills",
+			"items": [
+				"Leadership",
+				"Teamwork",
+				"Communication",
+				"Attention to Detail",
+				"Adaptability",
+				"Problem Solving",
+				"Crisis Management",
+				"Customer Service"
+			]
+		}
+	]
+}

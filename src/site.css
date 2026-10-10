@@ -1,0 +1,138 @@
+/* One page that reads on a screen and prints on a sheet of A4. */
+:root {
+	--ink: #1c1917;
+	--soft: #57534e;
+	--line: #d6d3d1;
+	--paper: #fff;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: var(--paper);
+	color: var(--ink);
+	font: 0.9375rem/1.55 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+}
+.cv {
+	container: cv / inline-size;
+	max-width: 52rem;
+	margin: 0 auto;
+	padding: 2.5rem 1.5rem 4rem;
+}
+h1,
+h2,
+h3,
+p,
+dl,
+dd,
+ul {
+	margin: 0;
+}
+h1 {
+	font-size: 2rem;
+	line-height: 1.15;
+}
+h2,
+.when,
+dt {
+	font: 0.6875rem/1.5 system-ui, sans-serif;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	color: var(--soft);
+}
+h3 {
+	font-size: 1rem;
+}
+.headline {
+	font-style: italic;
+	color: var(--soft);
+}
+.header {
+	display: grid;
+	gap: 1rem;
+	align-items: end;
+	padding-bottom: 1.25rem;
+}
+.photo {
+	width: 5.5rem;
+	height: 5.5rem;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.block {
+	display: grid;
+	gap: 0.5rem 2rem;
+	padding: 1.25rem 0;
+	border-top: 1px solid var(--line);
+}
+.item {
+	display: grid;
+	gap: 0.125rem 1.5rem;
+	break-inside: avoid;
+}
+.item + .item {
+	margin-top: 1rem;
+}
+.where {
+	color: var(--soft);
+}
+.item ul {
+	margin-top: 0.375rem;
+	padding-left: 1.1rem;
+}
+.summary {
+	white-space: pre-line;
+}
+.summary + .facts {
+	margin-top: 0.75rem;
+}
+.facts {
+	display: grid;
+	gap: 0.25rem;
+}
+.facts > div {
+	display: grid;
+	grid-template-columns: 8rem minmax(0, 1fr);
+	gap: 1rem;
+	align-items: baseline;
+}
+.scan {
+	color: inherit;
+}
+
+/* With room to spare, section names and dates move into a margin on the left. */
+@container cv (min-width: 38rem) {
+	.header {
+		grid-template-columns: auto minmax(0, 1fr) auto;
+	}
+	.block {
+		grid-template-columns: 8rem minmax(0, 1fr);
+	}
+	.block > h2 {
+		padding-top: 0.2rem;
+	}
+	.item {
+		grid-template-columns: 9rem minmax(0, 1fr);
+	}
+	.item .when {
+		padding-top: 0.2rem;
+	}
+}
+
+@media print {
+	@page {
+		size: A4;
+		margin: 14mm;
+	}
+	body {
+		font-size: 10.5pt;
+	}
+	.cv {
+		max-width: none;
+		padding: 0;
+	}
+	.scan {
+		display: none;
+	}
+}
