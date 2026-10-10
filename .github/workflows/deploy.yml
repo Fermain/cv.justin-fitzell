@@ -42,7 +42,7 @@ jobs:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
           # Where the editor at /admin signs in and saves. Neither value is secret; the project
           # id is a repository variable, set once the site has been added to the hub.
-          VITE_FRAME_HUB: https://frame-858793217902.africa-south1.run.app
+          VITE_FRAME_HUB: ${{ vars.FRAME_HUB }}
           VITE_FRAME_PROJECT: ${{ vars.FRAME_PROJECT }}
       - uses: actions/upload-pages-artifact@v3
         with:
