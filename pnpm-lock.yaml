@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@fermain/frame':
-        specifier: ^0.1.48
-        version: 0.1.48(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(sharp@0.35.5(@types/node@22.20.5))(svelte@5.57.2)(tailwindcss@4.3.3)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1))
+        specifier: ^0.1.49
+        version: 0.1.49(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(sharp@0.35.5(@types/node@22.20.5))(svelte@5.57.2)(tailwindcss@4.3.3)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1))
       '@sveltejs/adapter-static':
         specifier: ^4.0.0
         version: 4.0.0(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))
@@ -47,8 +47,8 @@ packages:
   '@emnapi/runtime@1.11.3':
     resolution: {integrity: sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==}
 
-  '@fermain/frame@0.1.48':
-    resolution: {integrity: sha512-FUqVuZ8zdejnBJs22FzRwQiXi+kFHGgA4xLSzd+4A/k/1zWDfefR6Szcz363QePj88/BpzbLqbfBt2tGzu9S+w==, tarball: https://npm.pkg.github.com/download/@fermain/frame/0.1.48/3897a43b460e1746b50a2ce35c64a095d46d8387}
+  '@fermain/frame@0.1.49':
+    resolution: {integrity: sha512-rzJJKl0a6KBsYBVSPeo8cP0jtoIJBaHUD6e0aX9UgQ/eUPfnEG7+k7wOtAHY2gQ1ZT2p/9MBTwhJbJg81PpYlg==, tarball: https://npm.pkg.github.com/download/@fermain/frame/0.1.49/8f13521efd87cfa617d1028506d2f5a75895c662}
     hasBin: true
     peerDependencies:
       sharp: '>=0.33.0'
@@ -799,8 +799,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  shadcn-svelte@1.8.0:
-    resolution: {integrity: sha512-B9EEH85xYUdLP12Dyf6raqMbtOGLeg47wnSd7+dTCmWibO6jHZg85alBo0pQsJkAiQ8IolNU/5RBjyOxNl//HQ==}
+  shadcn-svelte@1.8.1:
+    resolution: {integrity: sha512-ZrhHNL3+AL8J+m8t+pzaNsJAcQnvzHFbpDr4zwS2sjRlXNXHjmWRHjXmuU/2Iq4UPnYh2QoEYfvGQBMG8M/d4A==}
     hasBin: true
     peerDependencies:
       svelte: ^5.0.0
@@ -956,7 +956,7 @@ snapshots:
       tslib: 2.9.1
     optional: true
 
-  '@fermain/frame@0.1.48(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(sharp@0.35.5(@types/node@22.20.5))(svelte@5.57.2)(tailwindcss@4.3.3)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1))':
+  '@fermain/frame@0.1.49(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(sharp@0.35.5(@types/node@22.20.5))(svelte@5.57.2)(tailwindcss@4.3.3)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1))':
     dependencies:
       '@fontsource-variable/instrument-sans': 5.3.0
       '@fontsource/ibm-plex-mono': 5.3.0
@@ -965,7 +965,7 @@ snapshots:
       bits-ui: 2.21.0(@internationalized/date@3.12.4)(@sveltejs/kit@3.0.1(@sveltejs/vite-plugin-svelte@7.3.1(svelte@5.57.2)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(svelte@5.57.2)(typescript@6.0.3)(vite@8.3.4(@types/node@22.20.5)(jiti@2.7.0)(yaml@2.9.1)))(svelte@5.57.2)
       cn: 0.4.0
       idb-keyval: 6.3.0
-      shadcn-svelte: 1.8.0(svelte@5.57.2)
+      shadcn-svelte: 1.8.1(svelte@5.57.2)
       sharp: 0.35.5(@types/node@22.20.5)
       svelte: 5.57.2
       tailwind-variants: 3.3.1(tailwindcss@4.3.3)
@@ -1535,7 +1535,7 @@ snapshots:
 
   semver@7.8.6: {}
 
-  shadcn-svelte@1.8.0(svelte@5.57.2):
+  shadcn-svelte@1.8.1(svelte@5.57.2):
     dependencies:
       cn: 0.3.3
       commander: 14.0.3
