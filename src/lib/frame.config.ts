@@ -35,8 +35,7 @@ export default defineConfig({
 				})
 			},
 			components: {
-				view: () => import('./components/Role.svelte'),
-				list: () => import('./components/Experience.svelte')
+				view: () => import('./components/Role.svelte')
 			}
 		}),
 
@@ -50,8 +49,7 @@ export default defineConfig({
 				institution: fields.text({ label: 'Institution' }),
 				completed: fields.number({ label: 'Year completed', integer: true, min: 1950, max: 2100 }),
 				notes: fields.text({ label: 'Notes', multiline: true, required: false })
-			},
-			components: { list: () => import('./components/Education.svelte') }
+			}
 		}),
 
 		certificates: collection({
@@ -71,8 +69,7 @@ export default defineConfig({
 					required: false
 				}),
 				image: fields.image({ label: 'Scan', description: 'A photo or scan of the certificate.', required: false })
-			},
-			components: { list: () => import('./components/Certificates.svelte') }
+			}
 		}),
 
 		skills: singleton({
